@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+label {
+    font-size: 22px;
+    color: black;
+}
+
+textarea {
+    height: 120px;
+    width: 260px;
+    margin: 10px;
+    border: 1px solid rgb(73, 87, 97);
+    text-align: center;
+}
+
+.modal-buttons button {
+    width: 120px;
+    height: 30px;
+    margin: 0 10px 0 10px;
+    background-color: rgb(72, 126, 143);
+    border: 1px solid rgb(73, 87, 97);
+    border-radius: 5px;
+}

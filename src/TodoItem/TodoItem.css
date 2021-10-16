@@ -1,0 +1,38 @@
+.todo-list {
+    list-style: none;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    margin: 20px 0 20px 0;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.todo-list__check {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+}
+.todo-list__checked--active {
+    background-color: green;
+}
+.todo-list__text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.todo-list__text--active {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+}
+.todo-list__delete {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+}
+.todo-list__delete:hover {
+    background-color: red;
+}

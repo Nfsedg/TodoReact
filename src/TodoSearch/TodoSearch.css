@@ -1,0 +1,15 @@
+.input {
+    display: flex;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500px;
+    margin: 0 auto;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 10px;
+    outline: none;
+}
+.input:focus {
+    border: 2px solid rgb(133, 133, 133);
+    box-shadow: 0.3px 0.3px 3px rgb(105, 105, 105);
+}
